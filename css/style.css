@@ -23,10 +23,17 @@ p {
     width: 100%;
   }
 
+.parallax-container.deep {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9));
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 20%;
   }
   #index-banner .section {
     top: 10%;
@@ -40,7 +47,7 @@ p {
 }
 
 .icon-block {
-  padding: 0 15px;
+  padding: 0 3%;
 }
 .icon-block .material-icons {
   font-size: inherit;
@@ -51,3 +58,28 @@ footer.page-footer {
 }
 
 /* My Custom CSS */
+
+.carousel .active img:hover {
+  transform: scale(2.2);
+  transition: all 1s ease-in-out 0.3s;
+}
+
+.carousel-item img {
+  border-radius: 3%;
+}
+
+.fa-network-wired {
+  padding-left: 15px;
+}
+
+.header {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.footer-bottom-tag {
+  
+}
+
+.middle-section-tagline {
+  font-size: 1.3rem;
+}
