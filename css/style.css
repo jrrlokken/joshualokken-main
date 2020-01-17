@@ -5,6 +5,10 @@ nav .brand-logo {
   color: #444;
 }
 
+#logo-container img {
+  max-height: 64px;
+}
+
 p {
   line-height: 2rem;
 }
@@ -24,7 +28,7 @@ p {
   }
 
 .parallax-container.deep {
-  min-height: 700px;
+  min-height: 600px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9));
@@ -76,10 +80,16 @@ footer.page-footer {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.footer-bottom-tag {
-  
-}
-
 .middle-section-tagline {
   font-size: 1.3rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons-container i {
+  font-size: 2rem;
+  padding: 0 10px;
 }

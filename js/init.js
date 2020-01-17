@@ -7,6 +7,6 @@
     $('.carousel').carousel({
       indicators: true
     });
-    
+    $('.tooltipped').tooltip();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
